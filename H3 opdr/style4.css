@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.childclass p {
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: center;
+}
+.childclass p:nth-child(1) {
+    color: red;
+}
+.childclass p:nth-child(2) {
+    color: blue;
+}
+.childclass p:nth-child(3) {
+    color: green;
+}
+.childclass p:nth-child(4) {
+    color: rgb(0, 0, 0);
+}
+.childclass p:nth-child(5) {
+    color: rgb(225, 0, 255);
+}

@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+div {
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+}
+p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+p:nth-child(1) {
+    color: red;
+}
+p:nth-child(2) {
+    color: blue;
+}
+p:nth-child(3) {
+    color: green;
+}
+p:nth-child(4) {
+    color: rgb(0, 0, 0);
+}
+p:nth-child(5) {
+    color: rgb(225, 0, 255);
+}
+a{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+a:hover {
+    color: purple;
+}
+div:only-child > a {
+    color: gold;
+}

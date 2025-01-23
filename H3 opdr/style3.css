@@ -1,0 +1,28 @@
+body{
+    background-image: url(https://www.roadaffair.com/wp-content/uploads/2017/09/mountain-ski-resort-hochgurgl-austria-shutterstock_221508823.jpg);
+    background-size: 100%;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+}
+.menu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    left: 10px;
+    gap: 4px;
+}
+.menu div{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+}
+.title {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+}
